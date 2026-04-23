@@ -98,7 +98,6 @@ html body *:not([class^="icon-"]):not([class*=" icon-"]) {
 .hero-main-title {
     color: #ffffff !important;
     font-family: 'Glacial Indifference', sans-serif !important;
-    font-weight: 700 !important;
     line-height: 1.3 !important;
     letter-spacing: 1px !important;
     text-shadow: 0px 4px 15px rgba(0,0,0,0.3) !important;
@@ -339,8 +338,6 @@ html body *:not([class^="icon-"]):not([class*=" icon-"]) {
 
 @media screen and (max-width: 1024px) {
     
-    /* 1. LE FIX MAJEUR : On force TOUS les conteneurs du Hero à redevenir relatifs.
-          C'est ça qui oblige le Hero à repousser la section "About Us" vers le bas ! */
     .cover, 
     .cover.section, 
     .cover-over, 
