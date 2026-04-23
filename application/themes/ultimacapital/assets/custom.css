@@ -331,3 +331,34 @@ html body *:not([class^="icon-"]):not([class*=" icon-"]) {
   .career-block .h2_64 { font-size: 36px !important; line-height: 1.2 !important; }
   .career-block .career-text { font-size: 16px !important; margin-bottom: 30px !important; }
 }
+
+.menu-content__item_link a::after,
+.menu-content__item_link span::after,
+.menu-content__item.has-children > a::after {
+    content: none !important; 
+    /* Astuce : Si tu VEUX une flèche vers le bas, remplace "none" par "↓" 
+       et ajoute : font-family: sans-serif !important; */
+}
+
+.scroll-button [class^="icon-"]::before,
+.scroll-button [class*=" icon-"]::before {
+    content: "↑" !important;
+    font-family: "Glacial Indifference", sans-serif !important;
+    font-weight: bold !important;
+    display: inline-block;
+}
+
+.footer__nav ul,
+.footer__nav ul li {
+  list-style: none !important;
+  list-style-type: none !important;
+}
+
+/* On éradique toute tentative du vieux thème d'ajouter une icône avant ou après les liens */
+.footer__nav ul li::before,
+.footer__nav ul li::after,
+.footer__nav ul li a::before,
+.footer__nav ul li a::after {
+  content: none !important;
+  display: none !important;
+}

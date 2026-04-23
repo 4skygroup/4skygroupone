@@ -3877,47 +3877,28 @@ button.swiper-pagination-bullet {
   pointer-events: none;
   color: #a8a8aa;
 }
-@font-face {
-  font-family: icomoon;
-  src: url(fonts/icomoon/icomoon.eot);
-  src:
-    url(fonts/icomoon/icomoon.eot) format("embedded-opentype"),
-    url(fonts/icomoon/icomoon.ttf) format("truetype"),
-    url(fonts/icomoon/icomoon.woff) format("woff"),
-    url(fonts/icomoon/icomoon.svg) format("svg");
-  font-weight: 400;
-  font-style: normal;
-  font-display: block;
-}
 [class*=" icon-"],
 [class^="icon-"] {
-  font-family: icomoon !important;
-  speak: none;
+  font-family: "Glacial Indifference", sans-serif !important;
+  font-weight: bold !important;
   font-style: normal;
-  font-weight: 400;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
 }
-.icon-arrow-left:before {
-  content: "";
-}
-.icon-arrow-right-down:before {
-  content: "";
-}
-.icon-arrow-right-up:before {
-  content: "";
-}
-.icon-arrow-right:before {
-  content: "";
-}
-.icon-arrow-up:before {
-  content: "";
-}
-.icon-search:before {
-  content: "";
+
+.icon-arrow-left::before       { content: "←" !important; }
+.icon-arrow-right-down::before { content: "↘" !important; }
+.icon-arrow-right-up::before   { content: "↗" !important; }
+.icon-arrow-right::before      { content: "→" !important; }
+.icon-arrow-up::before         { content: "↑" !important; }
+
+.icon-search::before { 
+  content: "🔍" !important; 
+  font-family: sans-serif !important; 
+  font-size: 0.9em;
 }
 .pt-8 {
   padding-top: 0.5rem;
