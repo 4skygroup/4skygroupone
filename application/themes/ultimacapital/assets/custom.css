@@ -140,8 +140,8 @@ html body *:not([class^="icon-"]):not([class*=" icon-"]) {
 .carte-services:hover a::after, .carte-services:hover .service-light::after { width: 100%; }
 
 .service-1 { background-image: url("../../../files/Rjayna-logo.PNG"); background-color: black; background-size: 140% auto; }
-.service-2 { background-image: url("../../../files/McKinsky-logo.png"); background-color: #ffffff; background-size: 120% auto; }
-.service-3 { background-image: url("../../../files/LineSky-logo.jpg"); }
+.service-2 { background-image: url("../../../files/McKinsky-logo.png"); background-color: #ffffff; background-size: 140% auto; }
+.service-3 { background-image: url("../../../files/LineSky-logo.png"); }
 
 /* --- 6. NOS ÉQUIPES --- */
 .main-team { margin-block-start: 100px; margin-block-end: 100px; }
